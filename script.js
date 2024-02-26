@@ -112,7 +112,7 @@ const displayController = (function() {
 
     const resetGame = function() {
         gameBoard.reset();
-        gameController.start();
+        gameController.start;
         showGameResult('');
         cells.forEach(cell => {
             cell.textContent = '';
